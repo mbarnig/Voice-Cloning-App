@@ -4,7 +4,7 @@ import re
 import librosa
 import json
 
-from dataset.clip_generator import CHARACTER_ENCODING
+CHARACTER_ENCODING = "utf-8"
 
 
 ALLOWED_CHARACTERS_RE = re.compile("[^a-zA-Z ]+")
